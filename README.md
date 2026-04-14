@@ -1,7 +1,7 @@
 **Project 5: Independent HPC Research Sprint**
 
-*Due: 5/5/2026 @ 12pm (noon)*
-*Presentations: 5/5/2026 - 5/7/2026 (In Class)*
+*Due: 4/29/2026 @ 12pm (noon)*
+*Presentations: 4/28/2026 (In Class)*
 
 **Topics**
 * Scientific Computing Discovery
@@ -13,7 +13,7 @@
 
 While Project 4 introduced a fixed problem (N-Body) with a prescribed implementation, Project 5 flips the script. In the world of High Performance Computing (HPC), the first step is rarely writing code—it is identifying a problem in your domain of study (or personal interest) that is computationally constrained.
 
-**Requirement Note:** This project is **Required for Graduate Students**. It is **Optional for Undergraduate Students** (who may submit it to replace their lowest project grade).
+**Requirement Note:** This project is **Required for Graduate Students**. It is **Optional for Undergraduate Students** (who may submit it to replace their lowest final exam free response question grade).
 
 **Project Overview: From Serial Bottleneck to GPU Acceleration**
 
@@ -43,7 +43,7 @@ Your task is to:
 
 * **LLM-Assisted Report (5-10 Pages):**
     * **Content:** Outline of the scientific problem, description of the serial algorithm, description of the GPU parallelization strategy, and analysis of the performance graph.
-    * **LLM Citation:** You are required to use an LLM (ChatGPT, Claude, Gemini, etc.) to assist with writing this report. **You must include an Appendix titled "LLM Usage Disclosure."** This appendix must include:
+    * **LLM Citation:** You are required to use an LLM (ChatGPT, Claude, Gemini, DeepSeek, etc.) to assist with writing this report. **You must include an Appendix titled "LLM Usage Disclosure."** This appendix must include:
         * The name/model of the LLM used.
         * A list of the specific prompts you used.
         * A brief summary of how the output was edited/verified by you.
@@ -77,3 +77,5 @@ On the last day(s) of class, you will deliver a **10-15 minute** presentation co
 **Pledged Work Policy**
 * **Code:** The serial base code may be sourced from public scientific computing repositories (e.g., "Dr. Dobb's Journal examples" or university course webpages) but **must be cited clearly in the header comments.** The GPU porting logic must be your own work for this course.
 * **LLM Use:** Use of LLMs for *code generation* is permitted **only** for boilerplate or debugging syntax errors; core parallel algorithm design must be your own. Use of LLMs for *report writing* is required (see above).
+
+* Note: This project was written by DeepSeek (with modifications): https://chat.deepseek.com/share/7cmend3zo3jd3ugi3j
